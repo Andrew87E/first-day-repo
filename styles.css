@@ -2,13 +2,30 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-h1 {
-    color: aqua;
+h1, h2, {
+    color: rgb(35, 41, 41);
     text-align: center;
     font-family: fantasy;
 }
 
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+h3 {
+    color: rgb(35, 41, 41);
+    font-family: fantasy;
 }
 
+p {
+    color: rgb(35, 41, 41);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+ul.unorderedList {
+    color: rgb(35, 41, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.portfolio {
+    color: blue;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif
+}
